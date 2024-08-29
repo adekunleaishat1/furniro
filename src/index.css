@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    font-family: "Poppins", sans-serif;
 }
+.bg_newarrival{
+    width: 100%;
+    background-image: url('./Images//scandinavian-interior-mockup-wall-decal-background\ 1.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.group:hover .cont-prod{
+    visibility: visible;
+    opacity: 1;
+}
+.cont-prod{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+
+}
+.shop-bg{
+  background-image: url('./Images//Rectangle\ 1\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 300%; /* Adjust based on the number of items */
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    /* Adjust to fit within the design and keep the image aspect ratio */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-control-prev {
+    left: 10px;
+  }
+  
+  .carousel-control-next {
+    right: 10px;
+  }
+  .relative {
+    position: relative;
+  }
+  .curso{
+    position: relative;
+  }
+  .curso::after{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #B88E2F;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @media (max-width:1440px) {
+    
+  }
