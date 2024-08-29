@@ -77,28 +77,28 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full py-10 h-full ">
-        <div className="mx-auto max-w-[1183px] md:h-[685px] h-auto px-6 lg:px-0">
+        <div className="mx-auto max-w-[1183px] md:h-[685px] h-auto px-3 lg:px-0">
           <h1 className="text-[32px] text-[#333333] font-Poppins leading-[48px] font-bold text-center ">
             Browse The Range
           </h1>
           <p className="text-[20px] text-[#666666] font-Poppins leading-[30px] font-medium  text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <div className="flex  flex-wrap justify-center  lg:justify-around xl:justify-between items-center px-12 md:px-6 mt-6">
-            <div className="">
-              <img className="w-[381px] h-[480px]" src={dinning} alt="" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  px-10 md:px-0 items-center mx-auto">
+            <div className="mx-auto max-w-[381px]">
+              <img className="w-full h-[480px]" src={dinning} alt="" />
               <h1 className="text-[24px] text-[#333333] font-Poppins leading-[36px] font-semibold text-center mt-3">
                 Dining
               </h1>
             </div>
-            <div className="">
-              <img className="w-[381px] h-[480px]" src={living} alt="" />
+            <div className="mx-auto max-w-[381px]">
+              <img className="w-full h-[480px]" src={living} alt="" />
               <h1 className="text-[24px] text-[#333333] font-Poppins leading-[36px] font-semibold text-center mt-3">
                 Living
               </h1>
             </div>
-            <div className="">
-              <img className="w-[381px] h-[480px]" src={bedroom} alt="" />
+            <div className="mx-auto max-w-[381px]">
+              <img className="w-full h-[480px]" src={bedroom} alt="" />
               <h1 className="text-[24px] text-[#333333] font-Poppins leading-[36px] font-semibold text-center mt-3">
                 Bedroom
               </h1>

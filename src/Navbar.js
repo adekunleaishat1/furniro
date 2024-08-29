@@ -15,7 +15,7 @@ const Navbar = () => {
                   <img src={logo} alt="" srcset="" />
                </div>
                <div className='md:flex hidden justify-between  md:justify-around items-center w-[30%]  '>
-                <Link className='text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Home</Link>
+                <Link to="/" className='text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Home</Link>
                 <Link to="/shop" className='text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Shop</Link>
                 <Link className='text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>About</Link>
                 <Link className='text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Contact</Link>
