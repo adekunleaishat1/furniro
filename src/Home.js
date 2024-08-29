@@ -11,7 +11,7 @@ import product1 from "./Images/Image.png";
 import product2 from "./Images/Products.png";
 import setup from "./Images/Share.png";
 import Footer from "./Footer";
-import { TbArrowsRightLeft } from "react-icons/tb";
+import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import {
   MdOutlineArrowForwardIos,
   MdOutlineArrowBackIosNew,
@@ -61,7 +61,7 @@ const Home = () => {
                 <h1 className="text-[16px] text-[#000000] leading-[24px] font-Poppins font-semibold tracking-[3px]">
                   New Arrival
                 </h1>
-                <h2 className="text-[30px] md:text-[52px] text-[#B88E2F] leading-[65px] font-Poppins font-bold mb-3 ">
+                <h2 className="text-[30px] md:text-[52px] text-[#B88E2F] leading-[40px] md:leading-[65px] font-Poppins font-bold mb-3 ">
                   Discover Our <br /> New Collection
                 </h2>
                 <p className="text-[16px] md:text-[18px] text-[#000000] leading-[24px] font-Poppins font-medium  ">
@@ -84,7 +84,7 @@ const Home = () => {
           <p className="text-[20px] text-[#666666] font-Poppins leading-[30px] font-medium  text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <div className="flex  flex-wrap justify-center  md:justify-between items-center mt-6">
+          <div className="flex  flex-wrap justify-center  lg:justify-around xl:justify-between items-center px-12 md:px-6 mt-6">
             <div className="">
               <img className="w-[381px] h-[480px]" src={dinning} alt="" />
               <h1 className="text-[24px] text-[#333333] font-Poppins leading-[36px] font-semibold text-center mt-3">
@@ -139,7 +139,7 @@ const Home = () => {
                             Share
                           </span>
                           <span className="text-[12px] leading-[24px] font-Poppins text-[#FFFFFF] font-semibold flex items-center gap-1">
-                            <TbArrowsRightLeft className="text-[#FFFFFF] text-[20px]" />
+                            <FaArrowRightArrowLeft className="text-[#FFFFFF] text-[14px]" />
                             Compare
                           </span>
                           <span className="text-[12px] leading-[24px] font-Poppins text-[#FFFFFF] font-semibold flex items-center gap-1">
@@ -215,7 +215,7 @@ const Home = () => {
                 Explore More
               </button>
             </div>
-            <div className="col-span-2 relative flex items-center gap-4">
+            <div className="col-span-1 md:col-span-2 relative flex items-center gap-4">
               <img className="" src={product1} alt="" />
               <div className="h-[582px]  relative  w-[1000px]  overflow-hidden">
                 <div
@@ -258,7 +258,6 @@ const Home = () => {
                   ))}
                 </div>
               </div>
-              2
             </div>
           </div>
         </div>
@@ -267,25 +266,25 @@ const Home = () => {
 
       <div className="w-full bg-[#FFF] py-20 relative">
         <div className="absolute top-5 left-1/2 transform -translate-x-1/2  w-[356px]">
-          <h5 className="text-[20px] text-[#616161] font-Poppins leading-[30px] font-semibold  mt-3 text-center">Share your setup with</h5>
-         <h1  className="text-[40px] text-[#3A3A3A] font-Poppins leading-[48px] font-bold  mt-3 text-center">#FuniroFurniture</h1>
+          <h5 className="text-[16px] md:text-[20px] text-[#616161] font-Poppins leading-[24px] md:leading-[30px] font-semibold  mt-3 text-center">Share your setup with</h5>
+         <h1  className="text-[20px] md:text-[40px] text-[#3A3A3A] font-Poppins leading-[30px] md:leading-[48px] font-bold  mt-3 text-center">#FuniroFurniture</h1>
         </div>
-        <div className="grid grid-cols-4 grid-cols-5 items-center mx-auto  gap-3 w-full overflow-hidden">
-          <div className=" col-span-2 shrink">
+        <div className="block md:flex  items-center mx-auto  gap-3 w-full overflow-hidden">
+          <div className="w-40%   shrink">
             <div className="flex justify-start gap-3 items-end">
             <img className="h-[382px] w-[274px] shrink  object-cover " src={imgcollage1} alt="" />
             <img className="w-[500px] h-[312px] shrink object-cover " src={imgcollage2} alt="" />
             </div>
-            <div className="flex justify-center gap-3 mt-2">
+            <div className=" flex justify-center gap-3 mt-2">
             <img className="w-[381px] h-[323px] shrink" src={imgcollage6} alt="" />
             <img className="w-[344px] h-[242px] shrink" src={imgcollage7} alt="" />
             </div>
           </div>
-          <div className="hidden  md:col-span-1 shrink">
+          <div className=" hidden lg:w-[20%] shrink">
              <img className="w-[300px] h-[392px] shrink" src={imgcollage3} alt="" />
           </div>
           
-           <div className="col-span-2 shrink">
+           <div className="hidden lg: w-[40%] shrink">
             <div className="flex justify-center gap-3 items-end">
             <img className="w-[290px] shrink" src={imgcollage4} alt="" />
             <img className="w-[425px] shrink" src={imgcollage5} alt="" />

@@ -35,9 +35,9 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#F9F1E7] min-h-[100px]  md:py-6 md:px-0">
-          <div className="max-w-[1440px] mx-auto grid grid-cols-1  md:grid-cols-2 gap-8 px-2 md:px-6 ">
-            <div className="flex  md:gap-8 gap-4 items-center  ">
+        <div className="w-full bg-[#F9F1E7] min-h-[100px] hidden md:block  md:py-6 md:px-0">
+          <div className="max-w-[1440px] mx-auto grid grid-cols-1   md:grid-cols-2 gap-8 px-2 md:px-8 ">
+            <div className="flex justify-center  md:gap-12 gap-4 items-center  ">
               <span className="flex items-center gap-2 md:gap-4">
                 <BiSliderAlt className="text-[20px] md:text-[25px]" />
                 <label className="text-[#000000] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins">
@@ -46,26 +46,26 @@ const Shop = () => {
               </span>
               <RiApps2Fill className="text-[20px] md:text-[25px]" />
               <BsViewList className="text-[20px] md:text-[25px]" />
-              <div className="flex pl-4 md:pl-8 items-center border-l-2 border-[#9F9F9F] w-full md:w-[240px] h-[20px] md:h-[37px] text-[#000000] text-[14px] md:text-[16px] leading-[21px] md:leading-[24px] font-Poppins">
+              <div className="flex pl-4 md:pl-8 items-center border-l-2 border-[#9F9F9F] w-full md:max-w-[240px] h-[20px] md:h-[37px] text-[#000000] text-[14px] md:text-[16px] leading-[21px] md:leading-[24px] font-Poppins">
                 Showing 1–16 of 32 results
               </div>
             </div>
-            <div className="flex justify-center   gap-4 md:gap-7 ">
+            <div className="flex justify-center   gap-4 md:gap-9 ">
               <span className="grid grid-cols-2 items-center gap-2 md:gap-3 ">
                 <label className="text-[#000000] text-[20px] leading-[30px] font-Poppins">
                   Show
                 </label>
                 <input
-                  className="text-[#9F9F9F] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins w-[50px] md:w-[55px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-center"
+                  className="text-[#9F9F9F] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins w-[50px] md:w-[55px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-center outline-none"
                   value="I6"
                 />
               </span>
-              <div className="grid grid-cols-2 items-center md:gap-5 max-w-[288px] ">
+              <div className="grid grid-cols-2 items-center gap-2 xl:gap-5 max-w-[288px] ">
                 <label className="text-[#000000] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins font-normal">
                   Short by
                 </label>
                 <input
-                  className="text-[#9F9F9F]  text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins max-w-[150px] md:w-[188px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-center"
+                  className="text-[#9F9F9F]  text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins px-3 w-[150px] xl:w-[188px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-start outline-none"
                   value="Default"
                 />
               </div>
