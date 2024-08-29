@@ -186,8 +186,8 @@ const Shop = () => {
               <div className="flex items-center gap-2">
                <img src={warantee} alt="" />
                <div className=" ">
-                 <h6 className="text-[25px] leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Warranty Protection</h6>
-                 <p className="text-[20px] leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Over 2 years</p>
+                 <h6 className="text-[20px] md:text-[25px] leading-[30px] md:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Warranty Protection</h6>
+                 <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Over 2 years</p>
                </div>
               </div>
               <div className="flex items-center gap-2">
