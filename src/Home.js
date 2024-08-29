@@ -54,9 +54,9 @@ const Home = () => {
       <div className="border">
         <Navbar />
         <div className="bg_newarrival  min-h-[716.83px] relative  mx-auto ">
-          <div className="w-full flex justify-center md:justify-around items-center  top-[200px]  absolute px-3 md:px-24 ">
+          <div className="w-full flex justify-center md:justify-around items-center top-[100px]  md:top-[200px]  absolute px-3 md:px-24 ">
             <div className="w-[434px]"></div>
-            <div className="max-w-[643px] h-auto md:h-[443px]  bg-[#FFF3E3] rounded-md px-8 py-12">
+            <div className="max-w-[743px] md:max-w-[643px] h-auto md:h-[443px]  bg-[#FFF3E3] rounded-md px-8 py-12">
               <div className="max-w-[561px] h-auto md:h-[344px] ">
                 <h1 className="text-[16px] text-[#000000] leading-[24px] font-Poppins font-semibold tracking-[3px]">
                   New Arrival
@@ -68,7 +68,7 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                   elit tellus, luctus nec ullamcorper mattis.
                 </p>
-                <button className="bg-[#B88E2F] px-[72px] py-[10px] md:py-[25px] font-Poppins text-[#FFFFFF] font-bold text-[16px] leading-[24px] mt-[25px]">
+                <button className="bg-[#B88E2F] px-[40px] md:px-[72px] py-[10px] md:py-[25px] font-Poppins text-[#FFFFFF] font-bold text-[16px] leading-[24px] mt-[25px]">
                   BUY Now
                 </button>
               </div>
@@ -280,11 +280,11 @@ const Home = () => {
             <img className="w-[344px] h-[242px] shrink" src={imgcollage7} alt="" />
             </div>
           </div>
-          <div className=" hidden lg:w-[20%] shrink">
+          <div className=" hidden lg:block w-[20%]  shrink">
              <img className="w-[300px] h-[392px] shrink" src={imgcollage3} alt="" />
           </div>
           
-           <div className="hidden lg: w-[40%] shrink">
+           <div className="hidden lg:block w-[40%] shrink">
             <div className="flex justify-center gap-3 items-end">
             <img className="w-[290px] shrink" src={imgcollage4} alt="" />
             <img className="w-[425px] shrink" src={imgcollage5} alt="" />
