@@ -36,11 +36,11 @@ const Navbar = () => {
                   <div className='md:w-[15%] '>
                      <img src={logo} alt="" srcset="" />
                   </div>
-                  <div className='pt-24'>
-                  <Link to="/" className=' block p-4 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Home</Link>
-                  <Link to="/shop" className='block p-4 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Shop</Link>
-                  <Link className='block p-4 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>About</Link>
-                  <Link className='block p-4 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline'>Contact</Link>
+                  <div className='pt-12'>
+                  <Link to="/" className=' block p-5 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline uppercase'>Home</Link>
+                  <Link to="/shop" className='block p-5 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline uppercase'>Shop</Link>
+                  <Link className='block p-5 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline uppercase'>About</Link>
+                  <Link className='block p-5 text-[16px] text-[#000000] leading-[24px] font-Poppins font-medium no-underline uppercase'>Contact</Link>
 
                   </div>
                </div>

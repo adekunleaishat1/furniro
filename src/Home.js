@@ -203,7 +203,7 @@ const Home = () => {
       <div className="w-full bg-[#FCF8F3] py-8 ">
         <div className="w-full mx-auto sm:pl-3  md:px-0">
           <div className="grid grid-cols-1  md:grid-cols-3 items-center gap-8 mx-auto min-h-[670px]">
-            <div className="col-span-1 pl-0 md:pl-[90px] ">
+            <div className="col-span-1 px-3 md:pl-[90px] ">
               <h1 className="text-[30px] sm:text-[40px] text-[#3A3A3A] font-Poppins leading-[38px] sm:leading-[48px] font-bold  mt-3">
                 50+ Beautiful rooms inspiration
               </h1>
