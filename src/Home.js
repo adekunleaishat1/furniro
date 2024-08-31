@@ -54,7 +54,7 @@ const Home = () => {
       <div className="">
         <Navbar />
         <div className="bg_newarrival  h-full sm:min-h-[716.83px] relative  mx-auto ">
-          <div className="w-full flex justify-center md:justify-around items-center top-[100px]  md:top-[200px]  absolute px-3 md:px-24 ">
+          <div className="w-full flex justify-center md:justify-around items-center top-[200px]  absolute px-3 md:px-24 ">
             <div className="w-0 sm:w-[434px]"></div>
             <div className="w-[100%] md:max-w-[643px] h-auto md:h-[443px]  bg-[#FFF3E3] rounded-md px-8 py-12">
               <div className="max-w-[561px] h-auto md:h-[344px] ">
