@@ -216,7 +216,7 @@ const Home = () => {
               </button>
             </div>
             <div className="col-span-1 md:col-span-2 relative block sm:flex items-center gap-4">
-              <img className=" w-full sm:w-0 " src={product1} alt="" />
+              <img className="  " src={product1} alt="" />
               <div className="h-[582px] w-full  relative  mt-3 sm:mt-0 sm:w-[1000px]  overflow-hidden">
                 <div
                   className="flex transition-transform ease-out duration-300 mr-[60px] sm:mr-[70px]"
