@@ -174,7 +174,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#FAF3EA]  min-h-[270px] px-3 md:px-0 py-10 md:py-0 flex justify-center items-center">
+        <div className="w-full bg-[#FAF3EA]  min-h-[270px] px-4 md:px-0 py-10 md:py-0 flex justify-center items-center">
            <div className=" w-full sm:max-w-[1440px] mx-auto  gap-8 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center h-auto md:h-[70px] ">
               <div className="w-full flex items-center gap-2  ">
                <img className="w-auto" src={trophy} alt="" />
