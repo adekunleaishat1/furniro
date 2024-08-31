@@ -51,12 +51,12 @@ const Home = () => {
 
   return (
     <>
-      <div className="border">
+      <div className="">
         <Navbar />
-        <div className="bg_newarrival  min-h-[716.83px] relative  mx-auto ">
+        <div className="bg_newarrival  h-full sm:min-h-[716.83px] relative  mx-auto ">
           <div className="w-full flex justify-center md:justify-around items-center top-[100px]  md:top-[200px]  absolute px-3 md:px-24 ">
-            <div className="w-[434px]"></div>
-            <div className="max-w-[743px] md:max-w-[643px] h-auto md:h-[443px]  bg-[#FFF3E3] rounded-md px-8 py-12">
+            <div className="w-0 sm:w-[434px]"></div>
+            <div className="w-[100%] md:max-w-[643px] h-auto md:h-[443px]  bg-[#FFF3E3] rounded-md px-8 py-12">
               <div className="max-w-[561px] h-auto md:h-[344px] ">
                 <h1 className="text-[16px] text-[#000000] leading-[24px] font-Poppins font-semibold tracking-[3px]">
                   New Arrival
@@ -84,7 +84,7 @@ const Home = () => {
           <p className="text-[20px] text-[#666666] font-Poppins leading-[30px] font-medium  text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  px-10 md:px-0 items-center mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4   md:px-0 items-center mx-auto ">
             <div className="mx-auto max-w-[381px]">
               <img className="w-full h-[480px]" src={dinning} alt="" />
               <h1 className="text-[24px] text-[#333333] font-Poppins leading-[36px] font-semibold text-center mt-3">
@@ -128,7 +128,7 @@ const Home = () => {
 
                 return (
                   <div key={index} className="mb-4 relative group w-[275px]">
-                    <div className="w-full h-full bg-[#3a3a3ad2] flex cont-prod absolute top-0 left-0   transition-opacity duration-500 ease-in-out z-10  justify-center items-center  ">
+                    <div className="w-full h-full bg-[#3a3a3ad2] flex cont-prod absolute top-0 left-0   transition-opacity duration-500 ease-in-out z-5  justify-center items-center  ">
                       <div>
                         <button className="text-[#B88E2F] text-[16px] leading-[24px] font-Poppins font-semibold border-1 mx-auto block bg-[#FFFFFF] w-[202px] h-[48px] ">
                           Add to cart
@@ -200,14 +200,14 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="w-full bg-[#FCF8F3] py-8">
-        <div className="w-full mx-auto pl-3  md:px-0">
+      <div className="w-full bg-[#FCF8F3] py-8 ">
+        <div className="w-full mx-auto sm:pl-3  md:px-0">
           <div className="grid grid-cols-1  md:grid-cols-3 items-center gap-8 mx-auto min-h-[670px]">
-            <div className="col-span-1 pl-0 md:pl-[90px]">
-              <h1 className="text-[40px] text-[#3A3A3A] font-Poppins leading-[48px] font-bold  mt-3">
+            <div className="col-span-1 pl-0 md:pl-[90px] ">
+              <h1 className="text-[30px] sm:text-[40px] text-[#3A3A3A] font-Poppins leading-[38px] sm:leading-[48px] font-bold  mt-3">
                 50+ Beautiful rooms inspiration
               </h1>
-              <p className="text-[16px] text-[#616161] font-Poppins leading-[24px] font-semibold  mt-3">
+              <p className="text-[14px] sm:text-[16px] text-[#616161] font-Poppins leading-[20px] sm:leading-[24px] font-semibold  mt-3">
                 Our designer already made a lot of beautiful prototipe of rooms
                 that inspire you
               </p>
@@ -215,11 +215,11 @@ const Home = () => {
                 Explore More
               </button>
             </div>
-            <div className="col-span-1 md:col-span-2 relative flex items-center gap-4">
-              <img className="" src={product1} alt="" />
-              <div className="h-[582px]  relative  w-[1000px]  overflow-hidden">
+            <div className="col-span-1 md:col-span-2 relative block sm:flex items-center gap-4">
+              <img className=" w-full sm:w-0 " src={product1} alt="" />
+              <div className="h-[582px] w-full  relative  mt-3 sm:mt-0 sm:w-[1000px]  overflow-hidden">
                 <div
-                  className="flex transition-transform ease-out duration-300 mr-[70px]"
+                  className="flex transition-transform ease-out duration-300 mr-[60px] sm:mr-[70px]"
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                 >
                   {slides.map((slide, index) => (

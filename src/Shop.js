@@ -65,7 +65,7 @@ const Shop = () => {
                   Short by
                 </label>
                 <input
-                  className="text-[#9F9F9F]  text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins px-3 w-[150px] xl:w-[188px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-start outline-none"
+                  className="text-[#9F9F9F]  text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins px-3 max-w-[150px] xl:w-[188px] h-[50px] md:h-[55px] bg-[#FFFFFF] text-start outline-none"
                   value="Default"
                 />
               </div>
@@ -91,7 +91,7 @@ const Shop = () => {
 
                   return (
                     <div key={index} className="mb-4 relative group w-[275px]">
-                      <div className="w-full h-full bg-[#3a3a3ad2] flex cont-prod absolute top-0 left-0   transition-opacity duration-500 ease-in-out z-10  justify-center items-center  ">
+                      <div className="w-full h-full bg-[#3a3a3ad2] flex cont-prod absolute top-0 left-0   transition-opacity duration-500 ease-in-out z-5  justify-center items-center  ">
                         <div>
                           <button className="text-[#B88E2F] text-[16px] leading-[24px] font-Poppins font-semibold border-1 mx-auto block bg-[#FFFFFF] w-[202px] h-[48px] ">
                             Add to cart
@@ -175,33 +175,33 @@ const Shop = () => {
           </div>
         </div>
         <div className="w-full bg-[#FAF3EA]  min-h-[270px] px-3 md:px-0 py-10 md:py-0 flex justify-center items-center">
-           <div className="max-w-[1440px] mx-auto  gap-8 flex-wrap flex justify-between items-center h-auto md:h-[70px] ">
-              <div className="flex items-center gap-2">
-               <img src={trophy} alt="" />
+           <div className="max-w-[1440px] mx-auto  gap-8 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center h-auto md:h-[70px] ">
+              <div className="flex items-center gap-2 ">
+               <img className="w-auto" src={trophy} alt="" />
                <div className=" ">
-                 <h6 className="text-[25px] leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">High Quality</h6>
-                 <p className="text-[20px] leading-[30px] font-Poppins font-medium text-[#898989] mb-0">crafted from top materials</p>
+                 <h6 className="text-[20px] sm:text-[25px] leading-[30px] sm:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">High Quality</h6>
+                 <p className="text-[16px] sm:text-[20px] leading-[24px] sm:leading-[30px] font-Poppins font-medium text-[#898989] mb-0">crafted from top materials</p>
                </div>
               </div>
               <div className="flex items-center gap-2">
-               <img src={warantee} alt="" />
+               <img  className="w-auto" src={warantee} alt="" />
                <div className=" ">
-                 <h6 className="text-[20px] md:text-[25px] leading-[30px] md:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Warranty Protection</h6>
-                 <p className="text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Over 2 years</p>
+                 <h6 className="text-[20px] sm:text-[25px] leading-[30px] sm:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Warranty Protection</h6>
+                 <p className="text-[16px] sm:text-[20px] leading-[24px] sm:leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Over 2 years</p>
                </div>
               </div>
               <div className="flex items-center gap-2">
-               <img src={shipping} alt="" />
+               <img className="w-auto" src={shipping} alt="" />
                <div className=" ">
-                 <h6 className="text-[25px] leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Free Shipping</h6>
-                 <p className="text-[20px] leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Order over 150 $ </p>
+                 <h6 className="text-[20px] sm:text-[25px] leading-[30px] sm:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">Free Shipping</h6>
+                 <p className="text-[16px] sm:text-[20px] leading-[24px] sm:leading-[30px]font-Poppins font-medium text-[#898989] mb-0">Order over 150 $ </p>
                </div>
               </div>
               <div className="flex items-center gap-2">
-               <img src={support} alt="" />
+               <img className="w-auto" src={support} alt="" />
                <div className=" ">
-                 <h6 className="text-[25px] leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">24 / 7 Support</h6>
-                 <p className="text-[20px] leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Dedicated support</p>
+                 <h6 className="text-[20px] sm:text-[25px] leading-[30px] sm:leading-[37.5px] font-Poppins font-semibold text-[#242424] mb-0">24 / 7 Support</h6>
+                 <p className="text-[16px] sm:text-[20px] leading-[24px] sm:leading-[30px] font-Poppins font-medium text-[#898989] mb-0">Dedicated support</p>
                </div>
               </div>
            </div>
